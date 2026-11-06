@@ -99,7 +99,8 @@ img,video{max-width:100%}
 }
 /*MOBIL-END*/
 </style>
-<!--MOBILJS-START--><script>
+<!--MOBILJS-START--><div hidden aria-hidden="true"><div id="vanda"></div><div id="vandastav"></div><textarea id="note-hlas"></textarea><div id="hlasstav"></div><textarea id="note-vanda"></textarea></div>
+<script>
 /* telefon: aktivní záložka vždy viditelná ve vodorovné liště */
 document.addEventListener("click",e=>{const t=e.target.closest('[role=tab]');if(t)setTimeout(()=>t.scrollIntoView({inline:"center",block:"nearest",behavior:"smooth"}),30)});
 </script><!--MOBILJS-END-->
